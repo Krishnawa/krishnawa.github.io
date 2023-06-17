@@ -23,7 +23,7 @@ title: Krishnawa's Blog # the main title
 tagline: A Docs site for my project # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-I'm Krishnaswaroop, an electronics enthusiast who creates cool gadgets and writes about them on my blog with a funny twist.
+  I'm Krishnaswaroop, an electronics enthusiast who creates cool gadgets and writes about them on my blog with a funny twist.
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://krishnawa.github.io/"
 
