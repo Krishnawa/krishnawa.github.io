@@ -6,9 +6,9 @@ tags: [components]     # TAG names should always be lowercase
 comments: true
 mermaid: true
 image:
-  path: 
-  lqip: 
-  alt: 
+  path: https://pcbgogofile.s3-us-west-2.amazonaws.com/project/21/11/11/1351560724180.png
+  lqip: https://pcbgogofile.s3-us-west-2.amazonaws.com/project/21/11/11/1351560724180.png
+  alt: Components
   ---
 
   
