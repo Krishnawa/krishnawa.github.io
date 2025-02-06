@@ -29,7 +29,7 @@ github:
   username: krishnaw # change to your GitHub username
 
 twitter:
-  username: krishnawa # change to your Twitter username
+  username: krishnawa_ # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,11 +38,11 @@ social:
   email: krishnawa@outlook.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/krishnawa_ # change to your Twitter homepage
-    - https://github.com/krishnawa # change to your GitHub homepage
+     - https://twitter.com/krishnawa_ # change to your Twitter homepage
+     - https://github.com/krishnawa # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+     - https://www.linkedin.com/in/krishnaswaroop-ks-5617b6138
 
 # Site Verification Settings
 webmaster_verifications:
