@@ -52,7 +52,7 @@ you will get the answer
 
 $$ x+y=8 $$
 
-![Power path](https://i.postimg.cc/TYDbG8nd/simple-math.png){: lqip="![/assets/img/BEEIRON/Power_path_dark.png](https://i.postimg.cc/TYDbG8nd/simple-math.png)"}
+![Power path](https://i.postimg.cc/TYDbG8nd/simple-math.png){: lqip="![https://i.postimg.cc/TYDbG8nd/simple-math.png]"}
 
 ### Example 2
 
@@ -68,28 +68,28 @@ $$ I={V \over R} $$
 
 In SMath studio, When you type  $$  V = 10V $$, it will show a drop down menu select correct unit and press Tab and enter then you entered the parmeter and next is type the new parameter
 
-![Power path](https://i.postimg.cc/59nJ0jqp/VOLT.png){: lqip="![/assets/img/BEEIRON/Power_path_dark.png](https://i.postimg.cc/59nJ0jqp/VOLT.png)"}
+![Power path](https://i.postimg.cc/59nJ0jqp/VOLT.png){: lqip="![https://i.postimg.cc/59nJ0jqp/VOLT.png]"}
  
  Same for resistor R,
 
-![Power path](https://i.postimg.cc/RVHgYDFf/ohm.png){: lqip="![/assets/img/BEEIRON/Power_path_dark.png](https://i.postimg.cc/RVHgYDFf/ohm.png)"}
+![Power path](https://i.postimg.cc/RVHgYDFf/ohm.png){: lqip="![https://i.postimg.cc/RVHgYDFf/ohm.png]"}
 
 Next,use the formula
 
 While calling the existing variable it will appear in the drop down list, Simple press the tab to select the variable, In this is case it is V and R
 
-![Power path](https://i.postimg.cc/VvLdCTVh/V-tab.png){: lqip="![/assets/img/BEEIRON/Power_path_dark.png](https://i.postimg.cc/VvLdCTVh/V-tab.png)"}
-![Power path](https://i.postimg.cc/QMQtnhLP/Amp.png){: lqip="![/assets/img/BEEIRON/Power_path_dark.png](https://i.postimg.cc/QMQtnhLP/Amp.png)"}
+![Power path](https://i.postimg.cc/VvLdCTVh/V-tab.png){: lqip="![https://i.postimg.cc/VvLdCTVh/V-tab.png]"}
+![Power path](https://i.postimg.cc/QMQtnhLP/Amp.png){: lqip="![https://i.postimg.cc/QMQtnhLP/Amp.png]"}
 
 Here you can see after you put "=" it suddenly showing the answer with units!
 
 You can change the unit like this, Press Tab.
-![Power path](https://i.postimg.cc/8C4G65g1/ma.png){: lqip="![/assets/img/BEEIRON/Power_path_dark.png](https://i.postimg.cc/8C4G65g1/ma.png)"}
-![Power path](https://i.postimg.cc/fL0hgv0b/ma-sel.png){: lqip="![/assets/img/BEEIRON/Power_path_dark.png](https://i.postimg.cc/fL0hgv0b/ma-sel.png)"}
+![Power path](https://i.postimg.cc/8C4G65g1/ma.png){: lqip="![https://i.postimg.cc/8C4G65g1/ma.png]"}
+![Power path](https://i.postimg.cc/fL0hgv0b/ma-sel.png){: lqip="![https://i.postimg.cc/fL0hgv0b/ma-sel.png]"}
 
 Final result,
 
-![Power path](https://i.postimg.cc/g2kbPp6Q/m-A-result.png){: lqip="![/assets/img/BEEIRON/Power_path_dark.png](https://i.postimg.cc/g2kbPp6Q/m-A-result.png)"}
+![Power path](https://i.postimg.cc/g2kbPp6Q/m-A-result.png){: lqip="![https://i.postimg.cc/g2kbPp6Q/m-A-result.png]"}
 
 
 
