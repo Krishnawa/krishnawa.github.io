@@ -104,9 +104,8 @@ So, SMath Studio is like a fun, smart tool that makes math easier and more excit
 
 ### Step 1: Download SMath Studio
 
-Open your web browser and go to the official SMath Studio website:
-https://en.SMath.com/.
-
+> Open your web browser and go to the official SMath Studio website: [here](https://en.SMath.com/).
+{: .prompt-info }
 Navigate to the "Download" section.
 
 Choose the version of SMath Studio that matches your operating system (e.g., Windows, Linux, or Android).
