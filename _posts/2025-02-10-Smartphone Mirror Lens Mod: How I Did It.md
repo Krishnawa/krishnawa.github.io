@@ -1,6 +1,6 @@
 ---
 title: Smartphone Mirror Lens Mod; How I Did It
-date: 2025-02-03 19:05:00 +530
+date: 2025-02-010 19:05:00 +530
 categories: [Photography,Lens]
 tags: [mirrorlens,camera, photography, mod]
 comments: true
