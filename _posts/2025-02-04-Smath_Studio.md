@@ -1,14 +1,14 @@
 ---
 title: Smath Studio
 date: 2025-02-03 19:05:00 +530
-categories: [Maths,tool,Software]
+categories: [Software, SMath Studio]
 tags: [maths,formula, calculation]
 comments: true
 mermaid: true
 math: true
 image:
-    path: https://i.postimg.cc/PfMc4cCq/fXcsluH.png
-    lqip: https://i.postimg.cc/PfMc4cCq/fXcsluH.png
+    path: https://i.postimg.cc/cCzCThrT/math.jpg
+    lqip: https://i.postimg.cc/cCzCThrT/math.jpg
     alt: Engineer solving problems!
 
 ---

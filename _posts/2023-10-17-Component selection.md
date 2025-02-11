@@ -1,7 +1,7 @@
 ---
 title: Component Selection
 date: 2023-10-17 10:39:00 +530
-categories: [Homelab,review]
+categories: [Homelab,Componenet selection]
 tags: [review,layout,schematic]
 comments: true
 mermaid: true
