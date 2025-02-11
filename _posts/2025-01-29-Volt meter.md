@@ -1,7 +1,7 @@
 ---
 title: Volt meter
 date: 2025-01-29 15:05:00 +530
-categories: [Homelab,project]
+categories: [Homelab,Voltmeter]
 tags: [project,schematic]
 comments: true
 mermaid: true
