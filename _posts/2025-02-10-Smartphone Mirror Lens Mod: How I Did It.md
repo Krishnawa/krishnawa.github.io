@@ -35,7 +35,7 @@ Anyway, I stuck with the project. There were so many challenges, but eventually,
 
 Recently, I saw some videos about the **Xiaomi 12S Ultra Concept**:  
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/rZm4gg5CvWc" 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rZm4gg5CvWc" 
 frameborder="0" allowfullscreen></iframe>  
 
 I always wondered when something like this would be available in the market at an affordable price. But now, I think it's time to make one myself at a very low cost.
