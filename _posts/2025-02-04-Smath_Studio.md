@@ -1,5 +1,5 @@
 ---
-title: Smath Studio
+title: Introduction to SMath Studio
 date: 2025-02-03 19:05:00 +530
 categories: [Software, SMath Studio]
 tags: [maths,formula, calculation]
