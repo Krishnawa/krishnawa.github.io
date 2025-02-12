@@ -62,7 +62,7 @@ Also, this YouTuber **[ModAndShoot](https://www.youtube.com/@ModAndShoot)** insp
 | **Image Stabilization**   | **Electronic (EIS), No OIS**                                                     |
 | **Autofocus**             | **Laser AF + PDAF**                                                              |
 | **Flash**                 | **LED Flash**                                                                    |
-| **Video Recording**       | **8K @ 30fps, 4K @ 120fps, 1080p @ 240fps**                                      |
+| **Video Recording**       | **4K @ 30fps, 1080p @ 60fps**                                                    |
 | **Front Camera**          | **12.6 MP, f/2.3 aperture**                                                      |
 | **Additional Features**   | **HDR10+, RAW support, Night mode**                                              |
 
@@ -243,16 +243,156 @@ $$
 
 This means the 50mm lens provides approximately **7.35x zoom** compared to the 6.8mm lens on a 1-inch sensor.
 
+### Time for the Build
+
+Now that you understand the basics of **focal length**, **flange distance**, and **zoom factor**, let’s dive into the build process. I’ll walk you through my journey of designing and prototyping, including the challenges I faced and how I overcame them.
 
 
-## Procedure
 
-### Software I used
-Cad Challenge
-curvature formula
-## Prototypes
+#### Choosing the Right CAD Software
 
-## Sample
+For this project, I’m using **[FreeCAD](https://www.freecad.org/)**. As the name suggests, it’s **free and open-source**, and it’s available on **Windows**, **Mac**, and **Linux** 🐧. This made it an easy choice for me. I’ve never used any other CAD software for my mechanical projects, so I can’t compare it to other tools in the market. However, I find FreeCAD very capable and comfortable to work with, and it meets all my needs.
 
-## Next version changes
 
+
+#### From Design to Reality: 3D Printing
+
+Once the design was ready, I needed to bring it to life. For this, I used my **Bambu Lab P1S 3D printer** and printed the parts using **black ABS material**. ABS is strong, durable, and perfect for functional prototypes.
+
+
+
+### First Prototype: Lessons Learned
+
+My first prototype didn’t turn out as expected. As someone new to mechanical CAD software, I faced several challenges. Here’s a breakdown of what went wrong and how I improved in the next iteration.
+
+![First Proto](https://i.postimg.cc/MKdh0yVn/1-ST-PROTO.png){: lqip="https://i.postimg.cc/MKdh0yVn/1-ST-PROTO.png"}
+_First Prototype_
+
+#### Problems I Faced
+
+1. **Flange Distance Miscalculation**:
+   - I misunderstood the flange distance initially. Even a **1mm difference** can significantly impact the focus, and I couldn’t achieve **infinity focus**. This highlighted the importance of getting the technical details right.
+   
+2. **Measurement Errors**:
+   - I used my trusty **vernier calipers** to measure the lens, flange distance, and phone dimensions. However, I didn’t account for **tolerances**, which made the phone cover and lens mount difficult to fit.
+
+3. **Structural Weakness**:
+   - The lens mount and phone case walls were only **2mm thick**. After mounting the lens, the case started breaking apart due to the stress.
+
+#### Changes for the Next Revision
+
+- Improve the **flange distance** calculation.
+- Add **tolerances** for better mounting of the lens.
+- Optimize material usage to **reduce waste**.
+- Increase the **thickness** of the lens mounting area for better durability.
+
+
+
+### Second Prototype: Progress and New Challenges
+
+With the lessons from the first prototype, I made some improvements. However, new challenges emerged.
+
+![Second Proto](https://i.postimg.cc/sDLRdYXt/2-ND-PROTO.png){: lqip="https://i.postimg.cc/sDLRdYXt/2-ND-PROTO.png"}
+_Second Prototype_
+
+#### Problems I Faced
+
+1. **Weak Walls**:
+   - I added slits for the **power and volume rocker buttons**, but this weakened the walls, causing them to break apart.
+
+2. **Flange Distance Still Off**:
+   - The flange distance was slightly better than the first prototype but still not perfect.
+
+### Changes for the Next Revision
+
+- Strengthen the **weak areas** around the button slits.
+- Fine-tune the **flange distance** for better focus.
+
+
+
+### Third Prototype: Almost There
+
+The third prototype was a significant improvement, but there was still room for refinement.
+
+![Third Proto](https://i.postimg.cc/9FbYrbTn/3-RD-PROTO.png){: lqip="https://i.postimg.cc/9FbYrbTn/3-RD-PROTO.png"}
+_Third Prototype_
+
+![Sensor and Lens](https://i.postimg.cc/Z5DPLqwP/lens-mount.png){: lqip="https://i.postimg.cc/Z5DPLqwP/lens-mount.png"}
+_Sensor and Lens_
+#### Problems I Faced
+
+- The flange distance needed to be increased by **0.5mm** to achieve proper infinity focus. While it was close, it wasn’t perfect.
+
+#### Changes for the Next Revision
+
+- With more confidence in the design, I plan to create a **full-body case** for the phone.
+- Add a **Bluetooth shutter button** for better control.
+- Include a provision for an **IR cut filter** to block unwanted infrared light.
+
+
+
+### Learning from Mistakes
+
+Like Tony Stark, I believe in **learning from mistakes**. I used to be a perfectionist, which often left me stuck in the middle of projects or prevented me from even starting them. But now, I embrace the iterative process of prototyping and improving. Each failure teaches me something new, and that’s how I grow.
+
+
+
+### What’s Next?
+
+- Finalize the **full-body case design**.
+- Integrate the **Bluetooth shutter button** and **IR cut filter**.
+- Share the final design and results with the community.
+
+
+
+
+
+
+### Key Takeaways
+
+1. **Flange distance** is critical for achieving proper focus.
+2. **Tolerances** are essential for ensuring parts fit together seamlessly.
+3. **Structural strength** must be balanced with design aesthetics.
+4. **Iterative prototyping** is the key to success.
+
+
+
+## Sample Photos
+
+I took some photos with this lens. Please take a look and enjoy the results! You might notice a **reddish-pink tint** in some of the photos. This is because there’s no **IR cut filter** installed yet. I’ll address this in the next revision.
+
+![Portrait](https://i.postimg.cc/d32mmP18/DSC-0024.jpg){: lqip="https://i.postimg.cc/d32mmP18/DSC-0024.jpg"}
+_Portrait_
+
+![Photo sample](https://i.postimg.cc/Dytn49GC/CENTER-0001-BURST20250210135353408-COVER.jpg){: lqip="https://i.postimg.cc/Dytn49GC/CENTER-0001-BURST20250210135353408-COVER.jpg"}
+_Portrait_
+
+![Photo sample](https://i.postimg.cc/C16WT8Hv/CENTER-0001-BURST20250210135316437-COVER.jpg){: lqip="https://i.postimg.cc/C16WT8Hv/CENTER-0001-BURST20250210135316437-COVER.jpg"}
+_Portrait_
+
+![Photo sample](https://i.postimg.cc/MTvzQq9F/DSC-0028.jpg){: lqip="https://i.postimg.cc/MTvzQq9F/DSC-0028.jpg"}
+_Portrait_
+
+![Photo sample](https://i.postimg.cc/rFLL812b/DSC-0057.jpg){: lqip="https://i.postimg.cc/rFLL812b/DSC-0057.jpg"}
+_Low light_
+
+![Photo sample](https://i.postimg.cc/gjVQw7b7/DSC-0059.jpg){: lqip="https://i.postimg.cc/gjVQw7b7/DSC-0059.jpg"}
+_Low light_
+
+![Photo sample](https://i.postimg.cc/zfyQwv1K/IMG-20250211-180942.jpg){: lqip="https://i.postimg.cc/zfyQwv1K/IMG-20250211-180942.jpg"}
+_Low light_
+
+![Photo sample](https://i.postimg.cc/8PwXqMpL/IMG-20250211-181118.jpg){: lqip="https://i.postimg.cc/8PwXqMpL/IMG-20250211-181118.jpg"}
+_Low light_
+
+![Photo sample](https://i.postimg.cc/P5xVhJJ9/DSC-0045.jpg){: lqip="https://i.postimg.cc/P5xVhJJ9/DSC-0045.jpg"}
+_Low light_
+
+### Observations:
+- The lens captures **sharp details** and produces a **beautiful bokeh effect**.
+- The **reddish-pink tint** is caused by infrared (IR) light interference, which will be resolved with an IR cut filter in the next version.
+
+![Photo sample](){: lqip=""}
+_Portrait_
+
+This iterative process has been incredibly rewarding, and I’m excited to see the final product come to life. Stay tuned for more updates! 😊
