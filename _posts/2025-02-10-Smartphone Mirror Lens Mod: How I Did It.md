@@ -162,7 +162,7 @@ A comparison of popular camera systems and their flange distances.
 
 
 ### Zoom Factor Calculation for a 1-Inch Sensor
-![Zoom factor](https://i.postimg.cc/G3TLv1PW/1200px-Full-frame-vs-APS-C-svg.png)
+![Zoom factor](https://i.postimg.cc/G3TLv1PW/1200px-Full-frame-vs-APS-C-svg.png){: lqip="https://i.postimg.cc/G3TLv1PW/1200px-Full-frame-vs-APS-C-svg.png"}
 _image courtesy:https://en.wikipedia.org/wiki/35_mm_equivalent_focal_length_
 
 
@@ -196,7 +196,7 @@ The **1-inch sensor** has a crop factor of approximately **2.7x**. This means th
 
 2. **For the 50mm lens**:
    - The 35mm equivalent focal length is:
-   
+
      $$
      \begin{equation}
        \text{35mm Equivalent Focal Length} = 50\, \text{mm} \times 2.7 = 135\, \text{mm}
