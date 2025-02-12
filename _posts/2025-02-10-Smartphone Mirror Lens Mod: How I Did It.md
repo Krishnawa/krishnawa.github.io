@@ -243,15 +243,6 @@ $$
 
 This means the 50mm lens provides approximately **7.35x zoom** compared to the 6.8mm lens on a 1-inch sensor.
 
----
-
-#### **Visualization**
-- **6.8mm Lens**: Wide-angle view, suitable for landscapes or group shots.
-- **50mm Lens**: Telephoto view, ideal for portraits or isolating distant subjects.
-
----
-
-
 
 
 ## Procedure
