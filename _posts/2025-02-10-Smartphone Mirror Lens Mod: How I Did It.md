@@ -69,14 +69,14 @@ Also, this YouTuber **[ModAndShoot](https://www.youtube.com/@ModAndShoot)** insp
 ---
 
 #### **Key Highlights**  
-- 📏 **Massive 1-inch sensor**: One of the largest smartphone sensors for exceptional low-light performance and dynamic range.  
-- 🔴 **Leica-engineered lens**: Delivers superior clarity, color accuracy, and professional-grade imaging.  
-- ❌ **No Optical Image Stabilization (OIS)**: Relies on **Electronic Image Stabilization (EIS)** for video and photo stabilization.  
-- 🎥 **8K video recording**: Capture ultra-high-resolution videos at 30fps, with high-speed options like 4K @ 120fps and 1080p @ 240fps.  
-- 🌍 **Ultra-wide 19mm focal length (35mm equivalent)**: Perfect for landscapes, street photography, and capturing more in the frame.  
-- 🌙 **Night mode**: Enhanced low-light photography for stunning night shots.  
-- 🎨 **RAW support**: Allows for professional post-processing and editing flexibility.  
-- 💡 **HDR10+**: Ensures vibrant colors and high contrast in photos and videos.  
+- **Massive 1-inch sensor**: One of the largest smartphone sensors for exceptional low-light performance and dynamic range.  
+- **Leica-engineered lens**: Delivers superior clarity, color accuracy, and professional-grade imaging.  
+- **No Optical Image Stabilization (OIS)**: Relies on **Electronic Image Stabilization (EIS)** for video and photo stabilization.  
+- **8K video recording**: Capture ultra-high-resolution videos at 30fps, with high-speed options like 4K @ 120fps and 1080p @ 240fps.  
+- **Ultra-wide 19mm focal length (35mm equivalent)**: Perfect for landscapes, street photography, and capturing more in the frame.  
+- **Night mode**: Enhanced low-light photography for stunning night shots.  
+- **RAW support**: Allows for professional post-processing and editing flexibility.  
+- **HDR10+**: Ensures vibrant colors and high contrast in photos and videos.  
 
 ---
 
