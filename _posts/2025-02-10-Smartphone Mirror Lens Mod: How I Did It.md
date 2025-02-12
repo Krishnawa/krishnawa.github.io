@@ -161,7 +161,98 @@ A comparison of popular camera systems and their flange distances.
 {: .prompt-info }
 
 
-zoom factror
+### Zoom Factor Calculation for a 1-Inch Sensor
+![Zoom factor](https://i.postimg.cc/G3TLv1PW/1200px-Full-frame-vs-APS-C-svg.png)
+_image courtesy:https://en.wikipedia.org/wiki/35_mm_equivalent_focal_length_
+
+
+When switching from a **6.8mm focal length lens** to a **50mm focal length lens** on a **1-inch sensor** with a **4:3 aspect ratio**, the zoom factor can be calculated as follows:
+
+
+
+#### **Step 1: Understand the Crop Factor**
+The **1-inch sensor** has a crop factor of approximately **2.7x**. This means the effective focal length of any lens mounted on this sensor will be multiplied by 2.7 to get its **35mm equivalent focal length**.
+
+
+
+#### **Step 2: Calculate the 35mm Equivalent Focal Lengths**
+
+1. **For the 6.8mm lens**:
+   - The 35mm equivalent focal length is already given as **19mm**.
+   - This is calculated as:
+
+     $$
+     \begin{equation}
+       \text{35mm Equivalent Focal Length} = \text{Actual Focal Length} \times \text{Crop Factor}
+       \label{eq:35mm_equiv}
+     \end{equation}
+     $$
+     $$
+     \begin{equation}
+       19\, \text{mm} = 6.8\, \text{mm} \times 2.7
+       \label{eq:6.8mm_calc}
+     \end{equation}
+     $$
+
+2. **For the 50mm lens**:
+   - The 35mm equivalent focal length is:
+   
+     $$
+     \begin{equation}
+       \text{35mm Equivalent Focal Length} = 50\, \text{mm} \times 2.7 = 135\, \text{mm}
+       \label{eq:50mm_calc}
+     \end{equation}
+     $$
+
+
+
+#### **Step 3: Calculate the Zoom Factor**
+The **zoom factor** is the ratio of the new focal length (50mm) to the original focal length (6.8mm). This tells you how much "closer" the subject will appear when using the 50mm lens compared to the 6.8mm lens.
+
+$$
+\begin{equation}
+  \text{Zoom Factor} = \frac{\text{New Focal Length}}{\text{Original Focal Length}}
+  \label{eq:zoom_factor}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+  \text{Zoom Factor} = \frac{50\, \text{mm}}{6.8\, \text{mm}} \approx 7.35
+  \label{eq:zoom_calc}
+\end{equation}
+$$
+
+
+
+#### **Step 4: Interpretation**
+- A zoom factor of **7.35x** means that the 50mm lens will make the subject appear **7.35 times closer** compared to the 6.8mm lens.
+- In terms of **35mm equivalent focal lengths**, the field of view changes from **19mm (wide-angle)** to **135mm (telephoto)**.
+
+
+#### **Summary**
+- **Original Lens**: 6.8mm (19mm equivalent)
+- **New Lens**: 50mm (135mm equivalent)
+- **Zoom Factor**: 
+  $$
+  \begin{equation}
+    \frac{50}{6.8} \approx 7.35x
+    \label{eq:zoom_summary}
+  \end{equation}
+  $$
+
+This means the 50mm lens provides approximately **7.35x zoom** compared to the 6.8mm lens on a 1-inch sensor.
+
+---
+
+#### **Visualization**
+- **6.8mm Lens**: Wide-angle view, suitable for landscapes or group shots.
+- **50mm Lens**: Telephoto view, ideal for portraits or isolating distant subjects.
+
+---
+
+
+
 
 ## Procedure
 
@@ -173,3 +264,4 @@ curvature formula
 ## Sample
 
 ## Next version changes
+
