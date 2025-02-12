@@ -392,7 +392,5 @@ _Low light_
 - The lens captures **sharp details** and produces a **beautiful bokeh effect**.
 - The **reddish-pink tint** is caused by infrared (IR) light interference, which will be resolved with an IR cut filter in the next version.
 
-![Photo sample](){: lqip=""}
-_Portrait_
 
 This iterative process has been incredibly rewarding, and I’m excited to see the final product come to life. Stay tuned for more updates! 😊
