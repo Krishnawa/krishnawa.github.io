@@ -45,23 +45,68 @@ _BEEWATCH MK1 REV2_
 
 | **Feature**               | **Specification**                                                                 |
 |---------------------------|-----------------------------------------------------------------------------------|
-| **Display**               | **1.3-inch white OLED display**                                                   |
-| **RTC**                   | **ISL1208**                                                                       |
-| **Sensors**               | **Temperature sensor, Heartbeat sensor (optional)**                               |
-| **Battery**               | **3.7V Li-Po 150mAh**                                                             |
-| **Dimension**             | **45x28x10mm**                                                                    |
-| **Weight**                | **Aprox 25g**                                               |
-| **Charging**              | **Micro USB**                                                     |
-| **Alram/Buzzer**          | **Yes**                                                     |
-| **Input**                 | **2 Way navigational switch**                                                     |
-
-
+| **Display**               | 1.3-inch white OLED display                                                       |
+| **RTC**                   | ISL1208                                                                          |
+| **MCU**                   | ATMEGA328                                                                        |
+| **Input**                 | 2-way navigational switch                                                        |
+| **Sensors**               | Temperature sensor, Heartbeat sensor (optional)                                  |
+| **Battery**               | 3.7V Li-Po 150mAh                                                                |
+| **Dimension**             | 45x28x10mm                                                                       |
+| **Weight**                | Approx 25g                                                                       |
+| **Charging**              | Micro USB                                                                        |
+| **Alarm/Buzzer**          | Yes                                                                              |
 
 
 
 Now, many years later, I’m planning to create a new watch: **BEEWATCH MK2**. I’m not sure how many parts this project will have, but I’m excited to share my journey. Please enjoy my project notes!
 
 
+
 ## BEEWATCH MK2
 
-This is completely different from MK1 like iron man suites🤖, so it will be  very promising and very capable hardware, by this hardware we  think limitless possibilities
+This is completely different from MK1, like Iron Man suits 🤖. It will be very promising and capable hardware, opening up limitless possibilities. Here are the specs I'm planning to implement in MK2:
+
+### BEEWATCH MK2 Bird's-eye Specifications
+
+| **Feature**               | **Specification**                                                                 |
+|---------------------------|-----------------------------------------------------------------------------------|
+| **Display**               | 1.28-inch round TFT LCD display (RGB 240x240, GC9A01)                            |
+| **RTC**                   | Internal RTC                                                                     |
+| **Input**                 | 2 push buttons                                                                   |
+| **MCU**                   | ESP32-S3                                                                         |
+| **Sensors**               | Temperature sensor, 6-axis IMU (MPU6050)                                         |
+| **Peripheral**            | GPS                                                                              |
+| **Battery**               | 3.7V Li-Po 150mAh                                                                |
+| **Dimension**             | ⌀40.2x10mm                                                                      |
+| **Weight**                | Approx 25g                                                                       |
+| **Charging**              | Type-C USB                                                                       |
+| **Alarm/Buzzer**          | Yes                                                                              |
+
+Here, we are using the **ESP32-S3**, which has Wi-Fi, Bluetooth, and GPS—a deadly combo! ☠️
+
+Why? Because this hardware enables us to do a lot more than just tell time. Here are some possible applications:
+
+
+
+## Possible Applications of BEEWATCH MK2
+
+| **Category**               | **Applications**                                                                                   |
+|----------------------------|---------------------------------------------------------------------------------------------------|
+| **Fitness and Health**     | Step counting, calorie burn estimation, heart rate monitoring (with additional sensor), sleep tracking. |
+| **Navigation**             | Real-time GPS tracking, route recording, location-based reminders.                                |
+| **Sports and Adventure**   | Speed/distance tracking, altitude tracking, motion analysis for sports (e.g., golf, tennis).      |
+| **Gesture Control**        | Detect gestures (e.g., flick wrist to change music), control smart home devices.                  |
+| **Smart Notifications**    | Receive phone notifications (calls, messages), vibrate alerts, weather updates based on GPS.      |
+| **Safety Features**        | Fall detection, emergency alerts with GPS coordinates.                                            |
+| **Data Logging**           | Log motion (acceleration, gyroscope) and GPS data for analysis or research.                       |
+| **Smart Home Integration** | Remote control for smart home devices, trigger actions based on location (e.g., turn on lights).  |
+| **Time-Synced Features**   | Automatic time synchronization using GPS, time zone updates when traveling.                       |
+| **Geofencing**             | Set virtual boundaries, get alerts when entering/leaving a specific area (e.g., parental control).|
+| **Environmental Monitoring**| Add sensors (e.g., temperature, humidity) to monitor surroundings, log environmental data.       |
+| **Wireless Communication** | Use Wi-Fi/Bluetooth to connect with other devices, act as a bridge between phone and IoT devices.|
+| **Custom Watch Features**  | Custom watch faces with real-time data (steps, heart rate, weather), compass, stopwatch, timer.   |
+| **Research and Development**| Test new algorithms (motion analysis, GPS tracking), prototype wearable applications.            |
+
+
+
+Even with the ESP32, we can make a tiny hacking device ☠️. That’s why I call it **limitless possibilities**. However, I won’t implement all these features in the first revision. My first priority is to make a simple timekeeping watch with basic features. Later, I’ll work on the software to achieve some of the applications listed above.
