@@ -19,7 +19,6 @@ I started trying to make watch prototypes in 2015. My first watch prototype was 
 Four years later, I wanted to create a watch that could fit on a single board. That’s when I started working on the **BEEWATCH MK1**.
 
 
-
 ### BEEWATCH MK1
 
 ![BEEWATCH MK1 breadboard prototype](https://i.postimg.cc/hv3dL73x/BEEWATCH-MK1.gif){: lqip="https://i.postimg.cc/hv3dL73x/BEEWATCH-MK1.gif"}
@@ -57,9 +56,7 @@ _BEEWATCH MK1 REV2_
 | **Alarm/Buzzer**          | Yes                                                                              |
 
 
-
 Now, many years later, I’m planning to create a new watch: **BEEWATCH MK2**. I’m not sure how many parts this project will have, but I’m excited to share my journey. Please enjoy my project notes!
-
 
 
 ## BEEWATCH MK2
@@ -86,8 +83,6 @@ Here, we are using the **ESP32-S3**, which has Wi-Fi, Bluetooth, and GPS—a dea
 
 Why? Because this hardware enables us to do a lot more than just tell time. Here are some possible applications:
 
-
-
 ## Possible Applications of BEEWATCH MK2
 
 | **Category**               | **Applications**                                                                                   |
@@ -106,7 +101,6 @@ Why? Because this hardware enables us to do a lot more than just tell time. Here
 | **Wireless Communication** | Use Wi-Fi/Bluetooth to connect with other devices, act as a bridge between phone and IoT devices.|
 | **Custom Watch Features**  | Custom watch faces with real-time data (steps, heart rate, weather), compass, stopwatch, timer.   |
 | **Research and Development**| Test new algorithms (motion analysis, GPS tracking), prototype wearable applications.            |
-
 
 
 Even with the ESP32, we can make a tiny hacking device ☠️. That’s why I call it **limitless possibilities**. However, I won’t implement all these features in the first revision. My first priority is to make a simple timekeeping watch with basic features. Later, I’ll work on the software to achieve some of the applications listed above.
