@@ -51,7 +51,7 @@ add a phto with coin
 ![RYS8830 with a coin](https://i.postimg.cc/hPvfzjWm/RYS8830-Coin.png){: lqip="![https://i.postimg.cc/hPvfzjWm/RYS8830-Coin.png]" }
 
 ## Pin out 
-![RYS8830 with a coin](https://i.postimg.cc/3NmLQ1VL/IMG-20250527-214552-01.jpg){: lqip="![/assets/img/BEEIRON/Blockdiagram_Light.png](https://i.postimg.cc/3NmLQ1VL/IMG-20250527-214552-01.jpg)" }
+![RYS8830 with a coin](https://i.postimg.cc/3NmLQ1VL/IMG-20250527-214552-01.jpg){: lqip="!(https://i.postimg.cc/3NmLQ1VL/IMG-20250527-214552-01.jpg)" }
 ## Technical Specifications
 
 ### 🔌 Power Supply Voltage
