@@ -1,5 +1,5 @@
 ---
-title: BEEWATCH-MK2 Part 1
+title: BEEWATCH-MK2 Part 1 -Story
 date: 2025-02-13 07:20:00 +530
 categories: [Homelab, Project]
 tags: [gps, watch, esp32]
@@ -7,9 +7,9 @@ comments: true
 mermaid: true
 math: true
 image:
-    path: https://i.postimg.cc/cLLjf5F8/BEEWATCH-MK3.jpg
-    lqip: https://i.postimg.cc/cLLjf5F8/BEEWATCH-MK3.jpg
-    alt: BEEWATCH MK2
+    path: https://i.postimg.cc/ht93r9VV/V2.png
+    lqip: https://i.postimg.cc/ht93r9VV/V2.png
+    alt: BEEWATCH MK1
 ---
 
 ## Story
