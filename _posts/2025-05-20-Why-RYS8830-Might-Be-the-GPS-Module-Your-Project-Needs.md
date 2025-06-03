@@ -132,11 +132,7 @@ add a phto with coin
 
 > (1) VDD_LDO_IN = 1.8V. (2) VDD_LDO_IN = 0.92V. (3) The typical value is field test. (4) Use buck regulator.
 {: .prompt-info }
-## Advantages Over Other Modules
 
-- Lower power usage compared to competitors
-- Faster cold and hot start times
-- Better signal acquisition in challenging environments
 
 ## Typical Applications
 
