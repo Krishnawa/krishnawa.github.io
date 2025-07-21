@@ -1,5 +1,5 @@
 ---
-title: Why RYS8830 Might Be the GPS Module Your Project Needs
+title: The One GPS Module Every DIYer Needs to Know About
 date: 2025-05-20 07:40:00 +530
 categories: [Homelab, Modules]
 tags: [gps, gnss, urat,i2c]
@@ -14,30 +14,33 @@ image:
 
 ## Introduction
 
-I'm working on a GPS-based watch to get accurate time ⌚, so I needed a tiny GPS module that's both affordable and easy to use. Luckily, I found the **RYS8830** from [Reyax](https://reyax.com) — a Chinese company that designs and manufactures GNSS modules, along with LoRa, Bluetooth, and cellular (4G/LTE) modules for IoT (Internet of Things) applications.
+I'm working on a GNSS-based watch to get accurate time ⌚, so I needed a tiny GNSS module that's both affordable and easy to use. Luckily, I found the **RYS8830** from [Reyax](https://reyax.com), a Chinese company that designs and manufactures GNSS modules, along with LoRa, Bluetooth, and cellular (4G/LTE) modules for IoT (Internet of Things) applications.
 
-The RYS8830 is available locally for me, which is a big plus. It's incredibly small — just **11 × 11 × 2.2 mm** — and has very low current consumption (idle current: **3.7 mA**, sleep current: **0.26 mA**), making it a perfect fit for my project. So I thought this module might be a good fit for your future project too.
+The RYS8830 is available locally for me, which is a big plus. It's incredibly small, just **11 × 11 × 2.2 mm**  and has very low current consumption (idle current: **3.7 mA**, sleep current: **0.26 mA**), making it a perfect fit for my project. So I thought this module might be a good fit for your future project too.
 
-### Key Features of the RYS8830 (Powered by SONY CXD5605AGF Engine)
+### Key Features of the RYS8830 
 
 - **Small SMD form factor (11 x 11 mm)**
-- **Ultralow power consumption**
+- **Ultra low power consumption**
 - **Enhanced GNSS filter and low noise amplifier (LNA)**
 - **Embedded antenna** for simplified integration
+- **Powered by SONY CXD5605AGF Engine**
 
 These features make it ideal for compact, battery-powered projects like wearables and IoT sensors.
 
-Personally, working with GPS feels like dealing with alien technology 👽. Once you understand the magic behind it, it genuinely gives you goosebumps!
+Personally, working with GNSS feels like dealing with alien technology 👽. Once you understand the magic behind it, it genuinely gives you goosebumps!
 
-Just think about it: you're getting the **exact time from your GPS receiver** by communicating with multiple GNSS satellites 🛰️ flying over **20,000 km** above the Earth 🌍. Mind-blowing, right?
+Just think about it: you're getting the **exact time from your GNSS receiver** by decoding the data from multiple GNSS satellites 🛰️ flying over **20,000 km++** above the Earth 🌍. Mind-blowing, right?
 
 Maybe I'll write a blog about GNSS sometime in the future. Stay tuned!
 
 
 ## What This Blog Covers
 
-In this blog, I'm introducing the tiny GPS module **RYS8830**, and showing how we can communicate with it to gather useful information like:
+In this blog, I'm introducing the tiny GPS module **RYS8830**, and with a development board  showing how we can communicate with it to gather useful information like:
 
+- **Basic understanding of GNSS**
+- **NMEA-0183 GNSS Message structure**
 - **Time**
 - **Date**
 - **Position**
@@ -46,12 +49,72 @@ In this blog, I'm introducing the tiny GPS module **RYS8830**, and showing how w
 
 Let’s explore how to bring precise satellite timing to your next DIY project!
 
-add a phto with coin
+## Basic Understanding of GNSS
+
+If you think the GNSS module in your device (like your smartphone) gets location data by **sending a request to a satellite** and the satellite then **replies with your location**, you're actually mistaken.
+
+Think about it — there are around **6.9 billion smartphones** in the world, plus many more GNSS-enabled devices in **vehicles, drones, aviation, maritime, farming**, and other applications — totaling over **1.5 billion** additional devices. If each device were actively sending requests to satellites and waiting for a reply, imagine how many satellites and how much processing power that would require!
+
+It's okay to think this way at first, but let's break down how it really works.
+
+---
+
+A **GNSS system** typically has **24 to 30+ satellites** orbiting Earth at around **20,000 km altitude**. These satellites are **constantly broadcasting radio signals** that include:
+- Their current **position**
+- The **exact time**, from highly precise **atomic clocks**
+
+Your device — like a smartphone or a GNSS module — is a **passive receiver**. It **picks up these signals** from multiple satellites and **measures the time delay** between when the signal was sent and when it was received.
+
+Using this delay, the receiver calculates the **distance** to each satellite. Then, it uses [**Trilateration**](https://en.wikipedia.org/wiki/Trilateration) to determine its exact position on Earth.
+
+To calculate your position in 3D space (latitude, longitude, altitude), you need a **minimum of 3 satellites**. But there's a catch:  
+Your device's clock is **not synchronized** with the atomic clocks in the satellites. Even a **microsecond** (1 µs) of timing error can cause a **300 km error** in calculated position.
+
+To fix this, your receiver needs a **4th satellite** to solve for the **time offset** — so in practice, **you need at least 4 satellites** for an accurate location fix.
+
+I'm not diving into too much detail here, but if you're curious, I recommend watching this [**YouTube video**](https://www.youtube.com/watch?v=qPTIi7Ds15M) for a better visual explanation.
+
+---
+
+You might notice that I often say “**GPS**” instead of “GNSS.” Why?
+
+That’s because **GPS** was the **first GNSS**, built by the **United States**. It stands for **Global Positioning System**. It was initially developed for **military use**, and was opened to the public in the **1980s**, after a tragic incident in 1983 where a **civilian airliner (KAL 007)** was shot down due to navigation errors. Since then, GPS has become the **most widely used** term — even though today we have multiple GNSS systems like **GLONASS, Galileo, BeiDou,** and **NavIC**.
+
+So, I use the word “GPS” simply because it’s more familiar and widely recognized, even though “GNSS” is the correct general term.
+
+---
+
+I hope this short overview helps you understand the **basic working of GNSS** and clears up common misconceptions!
+
+
+Here are the different country GNSS system comparison table 
+### 🛰️ Global GNSS Systems Comparison Table
+
+| GNSS System | Country / Region | Constellation Name | # Satellites (Operational) | Frequency Bands      | Accuracy (Civil) | Altitude (km)             | Orbital Type       | Notes                                             |
+|-------------|------------------|---------------------|-----------------------------|-----------------------|------------------|----------------------------|---------------------|---------------------------------------------------|
+| **GPS**     | 🇺🇸 USA           | NAVSTAR              | 31+                         | L1, L2, L5            | ~5 m             | ~20,200                    | MEO                 | First GNSS, fully operational since 1995          |
+| **GLONASS** | 🇷🇺 Russia        | GLONASS              | 23+                         | L1, L2, L3            | ~5–10 m          | ~19,100                    | MEO                 | Slightly lower orbits than GPS                   |
+| **Galileo** | 🇪🇺 EU            | Galileo              | 28+ (24 usable)             | E1, E5, E6            | <1 m             | ~23,222                    | MEO                 | Dual-frequency for all users                     |
+| **BeiDou**  | 🇨🇳 China         | BeiDou (BDS)         | 45+                         | B1, B2, B3            | ~2.5–5 m         | ~21,500 (MEO), ~36,000 (GEO) | MEO, IGSO, GEO     | BDS-3 offers worldwide coverage                  |
+| **NavIC**   | 🇮🇳 India         | IRNSS / NavIC        | 7 (4 more planned)          | L5, S-band            | ~10–20 m         | ~36,000                    | GEO + IGSO         | Regional system covering India + 1500 km         |
+| **QZSS**    | 🇯🇵 Japan         | QZSS (Michibiki)     | 4 (7 planned by 2025)       | L1, L2, L5, L6        | ~0.5–1 m (with GPS) | ~36,000                 | Quasi-Zenith + GEO | Regional GPS enhancement in Asia-Pacific region  |
+
+
+## NMEA-0183 GNSS Message structure
+
+
+
+fun fact
+10.23MHz
+
+The first consumer GPS receiver (1981, "Magellan NAV 1000") weighed 16 kg (35 lbs) and cost $100,000+! Today, a $10 chip in your phone does the same job.
+ 
 
 ![RYS8830 with a coin](https://i.postimg.cc/hPvfzjWm/RYS8830-Coin.png){: lqip="![https://i.postimg.cc/hPvfzjWm/RYS8830-Coin.png]" }
 
 ## Pin out 
-![RYS8830 with a coin](https://i.postimg.cc/3NmLQ1VL/IMG-20250527-214552-01.jpg){: lqip="![https://i.postimg.cc/3NmLQ1VL/IMG-20250527-214552-01.jpg]" }
+![Pinout](https://i.postimg.cc/NfFPRBYv/RYS8830-PINOUT.png){: lqip="![https://i.postimg.cc/NfFPRBYv/RYS8830-PINOUT.png]" }
+
 ## Technical Specifications
 
 ### 🔌 Power Supply Voltage
@@ -99,7 +162,7 @@ add a phto with coin
 | Output Level Low (VOL)  | 0       |         | 0.2×VDD | V    | @2mA      |
 
 
-### 📦 Memory & RF
+### 💾 Memory & RF
 
 | Item                    | Value                          | Unit  | Notes                  |
 | ----------------------- | ------------------------------ | ----- | ---------------------- |
@@ -142,5 +205,43 @@ add a phto with coin
 - Drones and robotics
 
 
-## Communicating through UART to receive data from GPS constellation!
+## What you need to get started
 
+1. 1 x [RYS8830_EVB](https://www.amazon.com/REYAX-RYS8830_EVB-Glonass-Antenna-Interface/dp/B09BMZJMD9)
+2. 1 x Micro USB Cable
+3. 1 x Any Arduino compatible board (ESP32 Zero)
+4. 1 x Bread board
+5. Couple of wire
+6. GNSS Software
+
+
+### Getting Data from RYS8830_EVB to PC
+
+1. Install the GNSS software
+2. Connect the USB to RYS8830_EVB and PC
+3.  Open the software GNSS_Monitor2_ForCustomer Target →RYS8830 select CXD5605
+4. Open the Serial Port setting
+5. Set the COM port number and the baud rate (Default is 115200bps).
+6. If connection successful, will show FW version message.
+
+
+Add screenshot 
+
+results
+
+
+
+### Getting Data from RYS8830_EVB to ESP32
+
+connection steps
+
+## Basic understanding of NEMA commands
+
+
+## Arduino code and explanation
+
+Arduino Lib
+
+add screenshots 
+
+results
