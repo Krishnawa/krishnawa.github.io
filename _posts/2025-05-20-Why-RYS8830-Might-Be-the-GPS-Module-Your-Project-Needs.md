@@ -53,7 +53,7 @@ Let’s explore how to bring precise satellite timing to your next DIY project!
 
 If you think the GNSS module in your device (like your smartphone) gets location data by **sending a request to a satellite** and the satellite then **replies with your location**, you're actually mistaken.
 
-Think about it — there are around **6.9 billion smartphones** in the world, plus many more GNSS-enabled devices in **vehicles, drones, aviation, maritime, farming**, and other applications — totaling over **1.5 billion** additional devices. If each device were actively sending requests to satellites and waiting for a reply, imagine how many satellites and how much processing power that would require!
+Think about it — there are around **6.9 billion smartphones** in the world, plus many more GNSS-enabled devices in **vehicles, drones, aviation, maritime, farming**, and other applications totaling over **1.5 billion** additional devices. If each device were actively sending requests to satellites and waiting for a reply, imagine how many satellites and how much processing power that would require!
 
 It's okay to think this way at first, but let's break down how it really works.
 
@@ -63,14 +63,14 @@ A **GNSS system** typically has **24 to 30+ satellites** orbiting Earth at aroun
 - Their current **position**
 - The **exact time**, from highly precise **atomic clocks**
 
-Your device — like a smartphone or a GNSS module — is a **passive receiver**. It **picks up these signals** from multiple satellites and **measures the time delay** between when the signal was sent and when it was received.
+Your device like a smartphone or a GNSS module is a **passive receiver**. It **picks up these signals** from multiple satellites and **measures the time delay** between when the signal was sent and when it was received.
 
 Using this delay, the receiver calculates the **distance** to each satellite. Then, it uses [**Trilateration**](https://en.wikipedia.org/wiki/Trilateration) to determine its exact position on Earth.
 
 To calculate your position in 3D space (latitude, longitude, altitude), you need a **minimum of 3 satellites**. But there's a catch:  
 Your device's clock is **not synchronized** with the atomic clocks in the satellites. Even a **microsecond** (1 µs) of timing error can cause a **300 km error** in calculated position.
 
-To fix this, your receiver needs a **4th satellite** to solve for the **time offset** — so in practice, **you need at least 4 satellites** for an accurate location fix.
+To fix this, your receiver needs a **4th satellite** to solve for the **time offset**, so in practice, **you need at least 4 satellites** for an accurate location fix.
 
 I'm not diving into too much detail here, but if you're curious, I recommend watching this [**YouTube video**](https://www.youtube.com/watch?v=qPTIi7Ds15M) for a better visual explanation.
 
@@ -78,7 +78,7 @@ I'm not diving into too much detail here, but if you're curious, I recommend wat
 
 You might notice that I often say “**GPS**” instead of “GNSS.” Why?
 
-That’s because **GPS** was the **first GNSS**, built by the **United States**. It stands for **Global Positioning System**. It was initially developed for **military use**, and was opened to the public in the **1980s**, after a tragic incident in 1983 where a **civilian airliner (KAL 007)** was shot down due to navigation errors. Since then, GPS has become the **most widely used** term — even though today we have multiple GNSS systems like **GLONASS, Galileo, BeiDou,** and **NavIC**.
+That’s because **GPS** was the **first GNSS**, built by the **United States**. It stands for **Global Positioning System**. It was initially developed for **military use**, and was opened to the public in the **1980s**, after a tragic incident in 1983 where a **civilian airliner (KAL 007)** was shot down due to navigation errors. Since then, GPS has become the **most widely used** term, even though today we have multiple GNSS systems like **GLONASS, Galileo, BeiDou,** and **NavIC**.
 
 So, I use the word “GPS” simply because it’s more familiar and widely recognized, even though “GNSS” is the correct general term.
 
