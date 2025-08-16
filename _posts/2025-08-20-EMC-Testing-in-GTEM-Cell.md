@@ -167,6 +167,15 @@ The radiated emission test procedure using a GTEM cell, in accordance with 47 CF
 
 Limits are expressed both in µV/m and dBµV/m.
 
+![Radiated emission limits](https://i.postimg.cc/28W7DjYT/FCC-47-CFR-15-109.png){: lqip="https://i.postimg.cc/28W7DjYT/FCC-47-CFR-15-109.png"}
+_Image courtesy: ChatGPT_
+
+**Red = Class A** (Industrial/Commercial, 10 m)
+
+**Blue = Class B?** (Residential, 3 m, stricter limits)
+
+You can clearly see that Class B limits are tighter, especially above 960 MHz, where Class B is much stricter (54 dBµV/m vs 49.5 dBµV/m).
+
 ## Radiated immunity
 ![RI](/assets/img/EMI_EMC/RI.svg){: lqip="/assets/img/EMI_EMC/RI.svg" }
 
@@ -181,8 +190,7 @@ Before testing, the chamber is calibrated without the EUT using a field probe to
 | Step Size            | ≤1 % of current frequency | ≤1 % | ≤1 % | ≤1 % | ≤1 % |
 | Dwell Time           | ≥0.5 s per frequency | ≥0.5 s | ≥0.5 s | ≥0.5 s | ≥0.5 s |
 
-![Radiated emission limits](https://i.postimg.cc/28W7DjYT/FCC-47-CFR-15-109.png){: lqip="https://i.postimg.cc/28W7DjYT/FCC-47-CFR-15-109.png"}
-_Image courtesy: ChatGPT_
+
 
 ## Conducted emission
 ![CE](/assets/img/EMI_EMC/CE.svg){: lqip="/assets/img/EMI_EMC/CE.svg" }
