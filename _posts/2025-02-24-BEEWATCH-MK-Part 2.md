@@ -51,4 +51,10 @@ I’m using the MPU6050 to get gyroscope information, which communicates via the
 
 For the two push buttons, WS2812B LED, and buzzer, I’m using GPIO pins.
 
+
+
+
+
+
 ## BOM
+
