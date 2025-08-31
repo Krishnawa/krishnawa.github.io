@@ -7,8 +7,8 @@ comments: true
 mermaid: true
 math: true
 image:
-    path: https://i.postimg.cc/L6ZS3gvZ/MK2.png
-    lqip: https://i.postimg.cc/L6ZS3gvZ/MK2.png
+    path: https://i.postimg.cc/rsbm9d8p/IMG-20250830-121453078.jpg
+    lqip: https://i.postimg.cc/rsbm9d8p/IMG-20250830-121453078.jpg
     alt: BEEWATCH MK2
 ---
 ## Introduction 
@@ -54,7 +54,89 @@ For the two push buttons, WS2812B LED, and buzzer, I’m using GPIO pins.
 
 
 
+## SCHEMATIC
 
+### DISPLAY BOARD
+
+<div class="schematic-frame">
+  <iframe 
+    src="https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FKrishnawa%2FBEEWATCH%2Fblob%2Fmain%2FKicad%2FBEEWATCH%2520MK2%2FDisplay_board.kicad_sch" 
+    width="100%" 
+    height="600" 
+    style="border:none;">
+  </iframe>
+</div>
+
+### BATTERY
+
+<div class="schematic-frame">
+  <iframe 
+    src="https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FKrishnawa%2FBEEWATCH%2Fblob%2Fmain%2FKicad%2FBEEWATCH%2520MK2%2FBattery%2526BMS.kicad_sch" 
+    width="100%" 
+    height="600" 
+    style="border:none;">
+  </iframe>
+</div>
+
+### DISPLAY
+
+<div class="schematic-frame">
+  <iframe 
+    src="https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FKrishnawa%2FBEEWATCH%2Fblob%2Fmain%2FKicad%2FBEEWATCH%2520MK2%2FDisplay.kicad_sch" 
+    width="100%" 
+    height="600" 
+    style="border:none;">
+  </iframe>
+</div>
+
+### ESP32
+
+<div class="schematic-frame">
+  <iframe 
+    src="https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FKrishnawa%2FBEEWATCH%2Fblob%2Fmain%2FKicad%2FBEEWATCH%2520MK2%2FESP32.kicad_sch" 
+    width="100%" 
+    height="600" 
+    style="border:none;">
+  </iframe>
+</div>
+
+### GNSS
+
+<div class="schematic-frame">
+  <iframe 
+    src="https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FKrishnawa%2FBEEWATCH%2Fblob%2Fmain%2FKicad%2FBEEWATCH%2520MK2%2FRYS8830.kicad_sch" 
+    width="100%" 
+    height="600" 
+    style="border:none;">
+  </iframe>
+</div>
+
+### IMU
+
+<div class="schematic-frame">
+  <iframe 
+    src="https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FKrishnawa%2FBEEWATCH%2Fblob%2Fmain%2FKicad%2FBEEWATCH%2520MK2%2FGPS.kicad_sch" 
+    width="100%" 
+    height="600" 
+    style="border:none;">
+  </iframe>
+</div>
+
+
+<style>
+.schematic-frame {
+  border-radius: 12px;
+  overflow: hidden; /* ensures iframe corners are rounded */
+  transition: transform 0.9s ease, box-shadow 0.9s ease;
+  box-shadow: 0 16px 33px rgba(0,0,0,0.2);
+
+
+}
+
+
+
+
+</style>
 
 ## BOM
 
