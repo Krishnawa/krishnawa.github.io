@@ -7,8 +7,8 @@ comments: true
 mermaid: true
 math: true
 image:
-  path: https://www.powerelectronictips.com/wp-content/uploads/2021/01/Thermal-imaging.jpg
-  lqip: https://www.powerelectronictips.com/wp-content/uploads/2021/01/Thermal-imaging.jpg
+  path: https://www.winmate.com/image/Technologyimg/Emc_img_01.jpg
+  lqip: https://www.winmate.com/image/Technologyimg/Emc_img_01.jpg
   alt: High-resolution infrared camera systems are often used for thermal mapping during product development. (Source: InfraTec)
 ---
 
