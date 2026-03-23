@@ -26,6 +26,9 @@ how it helps in our post design
 
 with heat sink ( including thermal paste)
 
+##  Anechoic chamber
+![An RF anechoic chamber](https://upload.wikimedia.org/wikipedia/commons/0/0a/Radio-frequency-anechoic-chamber-HDR-0a.jpg){: lqip="https://upload.wikimedia.org/wikipedia/commons/0/0a/Radio-frequency-anechoic-chamber-HDR-0a.jpg" }
+_An RF anechoic chamber (source: Wikipedia)_
 
 
 # Reference
