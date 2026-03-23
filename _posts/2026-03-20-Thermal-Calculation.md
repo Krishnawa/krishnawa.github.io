@@ -22,7 +22,7 @@ to pass all these defined tests by the customer we need to design the circuits a
 
 Here we are looking into following points below 
 - What is heat and how it is dissipated 
-- how to identify the components which we need to take care
+- How to identify the components which we need to take care
 - How to calculate the component temperature in the given ambient temperature
 - How to calculate heat sink and the temperature difference
 - How to select heat sink
@@ -42,9 +42,15 @@ The Danger: If a device gets too hot, it can lead to thermal runaway, where the 
 
 Management: This is why we use heat sinks, thermal paste, and fans—to pull that vibrating energy away from sensitive silicon chips and into the air.
 
-# How to calculate temperature calculation for our spec amd choose componenet 
+## How to identify the components which we need to take care
 
-with heat sink ( including thermal paste)
+## How to calculate the component temperature in the given ambient temperature
+
+## How to calculate heat sink and the temperature difference
+
+## How to select heat sink
+
+## How to improve thermal dissipation in the layout
 
 
 
