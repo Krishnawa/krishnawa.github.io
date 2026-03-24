@@ -7,8 +7,8 @@ comments: true
 mermaid: true
 math: true
 image:
-    path: https://i.postimg.cc/pTpkdDWv/RYS8830-3.png
-    lqip: https://i.postimg.cc/pTpkdDWv/RYS8830-3.png
+    path: https://i.postimg.cc/kGdJ1BwT/Thermal-imaging.jpg
+    lqip: https://i.postimg.cc/kGdJ1BwT/Thermal-imaging.jpg
     alt: RYS8830
 ---
 
