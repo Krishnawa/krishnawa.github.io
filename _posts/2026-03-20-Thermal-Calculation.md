@@ -7,9 +7,9 @@ comments: true
 mermaid: true
 math: true
 image:
-  path: https://www.winmate.com/image/Technologyimg/Emc_img_01.jpg
-  lqip: https://www.winmate.com/image/Technologyimg/Emc_img_01.jpg
-  alt: GTEM 250 (Source:​​ https://www.ametek-cts.com)
+  path: https://www.powerelectronictips.com/wp-content/uploads/2021/01/Thermal-imaging.jpg
+  lqip: https://www.powerelectronictips.com/wp-content/uploads/2021/01/Thermal-imaging.jpg
+  alt: Thermal mapping during product development. (Image: InfraTec)
 ---
 
 # What is Thermal management and calculation and Why we are doing it?
@@ -37,7 +37,7 @@ There are three ways to transfer heat, conduction, convection, and radiation. Th
 Think of it as electrical friction. As electrons push through components like processors or wires, they collide with atoms, causing them to vibrate. Those vibrations are what we perceive as heat.
 
 Resistance: Every component has some level of resistance. According to Joule’s Law, the power lost as heat is equal to the current squared times the resistance 
-$$ (I^2)*R $$
+$$ I^2*R $$
 
 
 Efficiency: Heat is energy that didn't go toward doing "work" (like loading a webpage or spinning a motor). High heat usually means low efficiency.
