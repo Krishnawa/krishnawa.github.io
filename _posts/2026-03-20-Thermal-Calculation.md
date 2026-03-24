@@ -1,15 +1,15 @@
 ---
-title: EMI/EMC Testing with GTEM Cell for Pre Compliance
-date: 2025-08-03 10:39:00 +530
-categories: [Industry, Testing]
-tags: [gtem,fcc,emi,emc]     # TAG names should always be lowercase
+title: Thermal Management and calculation
+date: 2026-03-20 10:39:00 +530
+categories: [Industry, Calculation]
+tags: [pcb,schematic,thermal,calculations]     # TAG names should always be lowercase
 comments: true
 mermaid: true
 math: true
 image:
   path: https://www.winmate.com/image/Technologyimg/Emc_img_01.jpg
   lqip: https://www.winmate.com/image/Technologyimg/Emc_img_01.jpg
-  alt: GTEM 250 (Source:​​ https://www.ametek-cts.com)
+  alt: Thermal mapping during product development. (Source: InfraTec)
 ---
 
 # What is Thermal management and calculation and Why we are doing it?
