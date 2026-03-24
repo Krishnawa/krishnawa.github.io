@@ -1,15 +1,15 @@
 ---
-title: Thermal Management and calculation
-date: 2026-03-20 10:39:00 +530
-categories: [Industry, Calculation]
-tags: [pcb,schematic,thermal,calculation]     # TAG names should always be lowercase
+title: EMI/EMC Testing with GTEM Cell for Pre Compliance
+date: 2025-08-03 10:39:00 +530
+categories: [Industry, Testing]
+tags: [gtem,fcc,emi,emc]     # TAG names should always be lowercase
 comments: true
 mermaid: true
 math: true
 image:
   path: https://www.winmate.com/image/Technologyimg/Emc_img_01.jpg
   lqip: https://www.winmate.com/image/Technologyimg/Emc_img_01.jpg
-  alt: High-resolution infrared camera systems are often used for thermal mapping during product development. (Source: InfraTec)
+  alt: GTEM 250 (Source:​​ https://www.ametek-cts.com)
 ---
 
 # What is Thermal management and calculation and Why we are doing it?
@@ -36,11 +36,9 @@ There are three ways to transfer heat, conduction, convection, and radiation. Th
 
 Think of it as electrical friction. As electrons push through components like processors or wires, they collide with atoms, causing them to vibrate. Those vibrations are what we perceive as heat.
 
-Resistance: Every component has some level of resistance. According to Joule’s Law, the power lost as heat is equal to the current squared times the resistance( $$ \begin{equation}
-  \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}
-  \label{eq:series}
-\end{equation}
-$$ ).
+Resistance: Every component has some level of resistance. According to Joule’s Law, the power lost as heat is equal to the current squared times the resistance 
+$$ (I^2)*R $$
+
 
 Efficiency: Heat is energy that didn't go toward doing "work" (like loading a webpage or spinning a motor). High heat usually means low efficiency.
 
