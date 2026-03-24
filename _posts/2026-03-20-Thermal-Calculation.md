@@ -1,6 +1,6 @@
 ---
 title: Thermal Management and calculation
-date: 2025-05-20 07:40:00 +530
+date: 2026-03-20 07:40:00 +530
 categories: [Homelab, Modules]
 tags: [gps, gnss, urat,i2c]
 comments: true
