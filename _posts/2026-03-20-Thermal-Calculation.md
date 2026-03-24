@@ -1,15 +1,15 @@
 ---
 title: Thermal Management and calculation
 date: 2026-03-20 07:40:00 +530
-categories: [Homelab, Modules]
-tags: [gps, gnss, urat,i2c]
+categories: [Industry, Calculation]
+tags: [thermal, calculation, pcb,components]
 comments: true
 mermaid: true
 math: true
 image:
     path: https://i.postimg.cc/kGdJ1BwT/Thermal-imaging.jpg
     lqip: https://i.postimg.cc/kGdJ1BwT/Thermal-imaging.jpg
-    alt: RYS8830
+    alt: Thermal imaging
 ---
 
 # What is Thermal management and calculation and Why we are doing it?
