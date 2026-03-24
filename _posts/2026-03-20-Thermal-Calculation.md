@@ -7,8 +7,8 @@ comments: true
 mermaid: true
 math: true
 image:
-  path: https://www.powerelectronictips.com/wp-content/uploads/2021/01/Thermal-imaging.jpg
-  lqip: https://www.powerelectronictips.com/wp-content/uploads/2021/01/Thermal-imaging.jpg
+  path: https://i.postimg.cc/kGdJ1BwT/Thermal-imaging.jpg
+  lqip: https://i.postimg.cc/kGdJ1BwT/Thermal-imaging.jpg
   alt: Thermal mapping during product development. (Image: InfraTec)
 ---
 
