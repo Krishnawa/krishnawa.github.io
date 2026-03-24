@@ -1,15 +1,15 @@
 ---
 title: Thermal Management and calculation
-date: 2026-03-20 10:39:00 +530
-categories: [Industry, Testing]
-tags: [thermal,calculation,pcb,components]     # TAG names should always be lowercase
+date: 2025-05-20 07:40:00 +530
+categories: [Homelab, Modules]
+tags: [gps, gnss, urat,i2c]
 comments: true
 mermaid: true
 math: true
 image:
-  path: https://i.postimg.cc/kGdJ1BwT/Thermal-imaging.jpg
-  lqip: https://i.postimg.cc/kGdJ1BwT/Thermal-imaging.jpg
-  alt: Thermal mapping during product development. (Image: InfraTec)
+    path: https://i.postimg.cc/pTpkdDWv/RYS8830-3.png
+    lqip: https://i.postimg.cc/pTpkdDWv/RYS8830-3.png
+    alt: RYS8830
 ---
 
 # What is Thermal management and calculation and Why we are doing it?
